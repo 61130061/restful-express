@@ -1,3 +1,4 @@
+const { verifyToken } = require('../utils/jwt');
 
 module.exports = async (req, res, next) => {
 
