@@ -15,9 +15,12 @@ Dev
 - Nodemon
 
 
-## File Structure
+## Project Structure
+- 📂 Routes
+   - 📄 api (API router)
 - 📂 controllers (store functions after pass middleware to excute script on server e.q. CRUD database)
 - 📂 middleware (store functions excuted before controllers e.q. Access check)
+- 📂 utils (useful functions)
 
 
 ## TO UNDERSTAND 
