@@ -8,6 +8,6 @@ const config = {
 
 exports.config = config;
 
-exports.verifyToken = (token) => jwt.verify(tocket, config.secret);
+exports.verifyToken = (token) => jwt.verify(token, config.secret);
 
 exports.createToken = (data) => jwt.sign(data, config.secret, { expiresIn: config.exp });

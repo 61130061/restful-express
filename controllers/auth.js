@@ -58,3 +58,13 @@ exports.login = async (req, res) => {
 
    return res.status(401).json({ succeed: false, data: 'Unauthorized' });
 }
+
+exports.getUser = async (req, res) => {
+   const { id } = req.user;
+
+   const user = await prisma.user.findUnique({
+      where: { id },
+   });
+
+   return res.status(200).json({ succeed: true, data: user });
+}
