@@ -9,7 +9,9 @@ Let's learn ExpressJS for our backend project.
 - jsonwebtoken
 - keyv (Revoking token vai blacklist token)
 - bcrypt (hash password during communication)
+
 Dev
+
 - Nodemon
 
 
