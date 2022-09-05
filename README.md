@@ -15,5 +15,16 @@ Dev
 - Nodemon
 
 
+## File Structure
+- 📂 controllers (store functions after pass middleware to excute script on server e.q. CRUD database)
+- 📂 middleware (store functions excuted before controllers e.q. Access check)
+
+
+## TO UNDERSTAND 
+- [ ] what exactly is middleware for folder for?
+- [ ] what exactly is keyv package?
+
+
+
 ## Reference
 - JWT Authentication with ExpressJS [Read](https://www.ultimateakash.com/blog-details/Ii0jYGAKYAo=/How-to-Implement-JWT-Authentication-in-Node.js-Using-Mysql-2022)
